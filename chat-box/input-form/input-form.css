@@ -1,0 +1,38 @@
+.input-form {
+  height: 62px;
+  background-color: #ffffff;
+}
+.input-form__input {
+  border: 0;
+  width: 275px;
+  outline: none;
+  margin: 7px 0 0 17px;
+}
+.input-form__items {
+  list-style-type: none;
+  float: left;
+  margin: 7px 0 0 17px;
+  padding: 0;
+}
+.input-form__li {
+  display: inline-block;
+  width: 22px;
+  height: 17px;
+  margin-right: 6px;
+  background: no-repeat center;
+}
+.input-form__li_picture {
+  background-image: url("../../icons/Picture.svg");
+}
+.input-form__li_gif {
+  background-image: url("../../icons/Gif.svg");
+}
+.input-form__li_smile {
+  background-image: url("../../icons/Smile.svg");
+}
+.input-form__li_calendar {
+  background-image: url("../../icons/Calendar.svg");
+}
+.input-form__li_camera {
+  background-image: url("../../icons/Camera.svg");
+}
