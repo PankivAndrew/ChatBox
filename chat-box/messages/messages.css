@@ -1,5 +1,62 @@
 .messages {
   height: 290px;
+  width: 292px;
   background-color: #ffffff;
   border-bottom: solid 1px #e5e5e5;
+  overflow: auto;
+}
+.messages__left {
+  float: left;
+  margin-top: 8px;
+}
+.messages__left > .messages__text:not(:only-of-type) {
+  margin-top: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: 46px;
+}
+.messages__left > .messages__text:not(:only-of-type):first-of-type {
+  border-top-left-radius: 10px;
+  margin-left: 0;
+}
+.messages__left > .messages__text:not(:only-of-type):last-child {
+  border-bottom-left-radius: 10px;
+}
+.messages__right {
+  float: right;
+  margin-top: 8px;
+}
+.messages__right > .messages__text:not(:only-of-type) {
+  margin-top: 4px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.messages__right > .messages__text:not(:only-of-type):first-of-type {
+  border-top-left-radius: 10px;
+}
+.messages__right > .messages__text:not(:only-of-type):last-child {
+  border-bottom-left-radius: 10px;
+}
+.messages__text {
+  font-size: 12px;
+  font-family: OpenSans;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0;
+}
+.messages__text_color-white {
+  color: #353535;
+  background-color: #f3f3f3;
+}
+.messages__text_color-blue {
+  color: #ffffff;
+  background-color: #2979ff;
+}
+.messages__img {
+  margin: 0 8px 0 10px;
+  float: left;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
 }
