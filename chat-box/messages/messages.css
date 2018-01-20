@@ -5,17 +5,25 @@
   border-bottom: solid 1px #e5e5e5;
   overflow: auto;
 }
+.messages__time {
+  margin: 8px auto;
+  font-size: 10px;
+  color: #828282;
+  font-family: OpenSans;
+}
 .messages__left {
   float: left;
   margin-top: 8px;
+  width: 283px;
 }
 .messages__left > .messages__text:not(:only-of-type) {
-  margin-top: 4px;
+  margin-top: 1px;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   margin-left: 46px;
 }
 .messages__left > .messages__text:not(:only-of-type):first-of-type {
+  margin-top: 4px;
   border-top-left-radius: 10px;
   margin-left: 0;
 }
@@ -27,15 +35,17 @@
   margin-top: 8px;
 }
 .messages__right > .messages__text:not(:only-of-type) {
-  margin-top: 4px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+  float: right;
+  margin-top: 1px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
 .messages__right > .messages__text:not(:only-of-type):first-of-type {
-  border-top-left-radius: 10px;
+  margin-top: 4px;
+  border-top-right-radius: 10px;
 }
 .messages__right > .messages__text:not(:only-of-type):last-child {
-  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .messages__text {
   font-size: 12px;
