@@ -5,12 +5,14 @@
   width: 292px;
   background-color: #ffffff;
   border-bottom: solid 1px #e5e5e5;
-  overflow: auto;
+  overflow-y: auto;
   &__time{
     margin: 8px auto;
     font-size: 10px;
     color: #828282;
     font-family: @font-family;
+    padding: 112px;
+    font-weight: bold;
   }
   &__left{
     float: left;
@@ -34,6 +36,7 @@
   &__right{
     float: right;
     margin-top: 8px;
+    margin-right: 16px;
     & > .messages__text:not(:only-of-type){
       float: right;
       margin-top: 1px;
@@ -49,12 +52,13 @@
     }
   }
   &__text{
-    font-size: 12px;
+    font-size: 14px;
     font-family: @font-family;
     display: inline-block;
     padding: 5px;
     border-radius: 10px;
     margin: 0;
+    max-width: 175px;
     &_color-white{
       color: #353535;
       background-color: #f3f3f3;
