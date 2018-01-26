@@ -41,14 +41,14 @@
   text-indent: -9999px;
 }
 .chat-header__button_plus {
-  background-image: url("../../icons/Plus.svg");
+  background-image: url("../icons/Plus.svg");
 }
 .chat-header__button_camera {
-  background-image: url("../../icons/Video.svg");
+  background-image: url("../icons/Video.svg");
 }
 .chat-header__button_cog {
-  background-image: url("../../icons/Cog.svg");
+  background-image: url("../icons/Cog.svg");
 }
 .chat-header__button_close {
-  background-image: url("../../icons/Close.svg");
+  background-image: url("../icons/Close.svg");
 }

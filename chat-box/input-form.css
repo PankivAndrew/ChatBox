@@ -26,17 +26,17 @@
   text-indent: -9999px;
 }
 .input-form__button_picture {
-  background-image: url("../../icons/Picture.svg");
+  background-image: url("../icons/Picture.svg");
 }
 .input-form__button_gif {
-  background-image: url("../../icons/Gif.svg");
+  background-image: url("../icons/Gif.svg");
 }
 .input-form__button_smile {
-  background-image: url("../../icons/Smile.svg");
+  background-image: url("../icons/Smile.svg");
 }
 .input-form__button_calendar {
-  background-image: url("../../icons/Calendar.svg");
+  background-image: url("../icons/Calendar.svg");
 }
 .input-form__button_camera {
-  background-image: url("../../icons/Camera.svg");
+  background-image: url("../icons/Camera.svg");
 }
