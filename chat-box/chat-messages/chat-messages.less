@@ -1,0 +1,98 @@
+@font-face {
+  font-family: OpenSans, sans-serif;
+  src: url('../../fonts/OpenSans-Bold.ttf');
+}
+
+.chat-messages {
+  height: 290px;
+  background-color: #ffffff;
+  border-bottom: solid 1px #e5e5e5;
+  overflow-y: auto;
+  &__time {
+    display: block;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 10px;
+    color: #828282;
+    font-family: OpenSans, sans-serif;
+    font-weight: bold;
+    clear: both;
+  }
+  &__friend {
+    margin-top: 15px;
+    &:after, &:before {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .chat-messages__text {
+      float: left;
+      max-width: 61%;
+    }
+    & > .chat-messages__text:not(:only-of-type) {
+      margin-top: 1px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      margin-left: 52px;
+      clear: left;
+      &:first-of-type {
+        clear: none;
+        margin-top: 4px;
+        border-top-left-radius: 10px;
+        margin-left: 0;
+      }
+      &:last-child {
+        border-bottom-left-radius: 10px;
+      }
+    }
+  }
+  &__writer {
+    margin-top: 12px;
+    margin-right: 16px;
+    &:after, &:before {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .chat-messages__text {
+      float: right;
+      clear: right;
+      max-width: 56%;
+    }
+    & > .chat-messages__text:not(:only-of-type) {
+      margin-top: 1px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      &:first-of-type {
+        margin-top: 4px;
+        border-top-right-radius: 10px;
+      }
+      &:last-child {
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+  &__text {
+    font-size: 12.2px;
+    font-family: OpenSans, sans-serif;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin: 0;
+    word-spacing: -1.5px;
+    line-height: 15px;
+    &_white {
+      color: #353535;
+      background-color: #f3f3f3;
+      text-align: left;
+    }
+    &_blue {
+      color: #ffffff;
+      background-color: #2979ff;
+      text-align: right;
+    }
+  }
+  &__img {
+    margin: 0 8px 0 16px;
+    float: left;
+  }
+}

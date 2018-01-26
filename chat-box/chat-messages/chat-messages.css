@@ -1,0 +1,99 @@
+@font-face {
+  font-family: OpenSans, sans-serif;
+  src: url('../../fonts/OpenSans-Bold.ttf');
+}
+.chat-messages {
+  height: 290px;
+  background-color: #ffffff;
+  border-bottom: solid 1px #e5e5e5;
+  overflow-y: auto;
+}
+.chat-messages__time {
+  display: block;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 10px;
+  color: #828282;
+  font-family: OpenSans, sans-serif;
+  font-weight: bold;
+  clear: both;
+}
+.chat-messages__friend {
+  margin-top: 15px;
+}
+.chat-messages__friend:after,
+.chat-messages__friend:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.chat-messages__friend .chat-messages__text {
+  float: left;
+  max-width: 61%;
+}
+.chat-messages__friend > .chat-messages__text:not(:only-of-type) {
+  margin-top: 1px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: 52px;
+  clear: left;
+}
+.chat-messages__friend > .chat-messages__text:not(:only-of-type):first-of-type {
+  clear: none;
+  margin-top: 4px;
+  border-top-left-radius: 10px;
+  margin-left: 0;
+}
+.chat-messages__friend > .chat-messages__text:not(:only-of-type):last-child {
+  border-bottom-left-radius: 10px;
+}
+.chat-messages__writer {
+  margin-top: 12px;
+  margin-right: 16px;
+}
+.chat-messages__writer:after,
+.chat-messages__writer:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.chat-messages__writer .chat-messages__text {
+  float: right;
+  clear: right;
+  max-width: 56%;
+}
+.chat-messages__writer > .chat-messages__text:not(:only-of-type) {
+  margin-top: 1px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.chat-messages__writer > .chat-messages__text:not(:only-of-type):first-of-type {
+  margin-top: 4px;
+  border-top-right-radius: 10px;
+}
+.chat-messages__writer > .chat-messages__text:not(:only-of-type):last-child {
+  border-bottom-right-radius: 10px;
+}
+.chat-messages__text {
+  font-size: 12.2px;
+  font-family: OpenSans, sans-serif;
+  padding: 6px 12px;
+  border-radius: 10px;
+  margin: 0;
+  word-spacing: -1.5px;
+  line-height: 15px;
+}
+.chat-messages__text_white {
+  color: #353535;
+  background-color: #f3f3f3;
+  text-align: left;
+}
+.chat-messages__text_blue {
+  color: #ffffff;
+  background-color: #2979ff;
+  text-align: right;
+}
+.chat-messages__img {
+  margin: 0 8px 0 16px;
+  float: left;
+}

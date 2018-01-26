@@ -1,37 +1,41 @@
-.input-form{
+.input-form {
   height: 62px;
   background-color: #ffffff;
-  &__input{
+  &__type-message {
     border: 0;
-    width: 270px;
+    width: 100%;
     outline: none;
-    margin: 7px 0 0 17px;
+    padding: 7px 0 0 17px;
+    box-sizing: border-box;
   }
-  &__items{
+  &__items {
     list-style-type: none;
-    float:left;
-    margin: 7px 0 0 17px;
-    padding: 0;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
   }
-  &__li{
+  &__button {
+    border: 0;
+    outline: 0;
     display: inline-block;
     width: 22px;
     height: 18px;
     margin-right: 2px;
     background: no-repeat center;
-    &_picture{
+    text-indent: -9999px;
+    &_picture {
       background-image: url("../../icons/Picture.svg");
     }
-    &_gif{
+    &_gif {
       background-image: url("../../icons/Gif.svg");
     }
-    &_smile{
+    &_smile {
       background-image: url("../../icons/Smile.svg");
     }
-    &_calendar{
+    &_calendar {
       background-image: url("../../icons/Calendar.svg");
     }
-    &_camera{
+    &_camera {
       background-image: url("../../icons/Camera.svg");
     }
   }

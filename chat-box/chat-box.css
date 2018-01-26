@@ -1,3 +1,7 @@
+body {
+  background-color: #e3f2fd;
+}
 .chat-box {
   width: 292px;
+  min-width: 230px;
 }

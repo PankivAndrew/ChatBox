@@ -2,37 +2,41 @@
   height: 62px;
   background-color: #ffffff;
 }
-.input-form__input {
+.input-form__type-message {
   border: 0;
-  width: 270px;
+  width: 100%;
   outline: none;
-  margin: 7px 0 0 17px;
+  padding: 7px 0 0 17px;
+  box-sizing: border-box;
 }
 .input-form__items {
   list-style-type: none;
   float: left;
-  margin: 7px 0 0 17px;
-  padding: 0;
+  margin-left: 15px;
+  margin-top: 5px;
 }
-.input-form__li {
+.input-form__button {
+  border: 0;
+  outline: 0;
   display: inline-block;
   width: 22px;
   height: 18px;
   margin-right: 2px;
   background: no-repeat center;
+  text-indent: -9999px;
 }
-.input-form__li_picture {
+.input-form__button_picture {
   background-image: url("../../icons/Picture.svg");
 }
-.input-form__li_gif {
+.input-form__button_gif {
   background-image: url("../../icons/Gif.svg");
 }
-.input-form__li_smile {
+.input-form__button_smile {
   background-image: url("../../icons/Smile.svg");
 }
-.input-form__li_calendar {
+.input-form__button_calendar {
   background-image: url("../../icons/Calendar.svg");
 }
-.input-form__li_camera {
+.input-form__button_camera {
   background-image: url("../../icons/Camera.svg");
 }
